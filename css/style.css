@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@300;400;500;700&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 :root{
     --primary-color  : #00FF08;
     --secundary-color: #FFF;
@@ -35,8 +36,17 @@ body{
     box-shadow: 0px 0px 8px #00FF08;
     transform : scale(1.05);
 }
+h2.title{
+    color: var(--secundary-color);
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2.title span{
+    color: var(--primary-color);
+}
 
-/* FIM ESTILO GERAL PARA TODO SITE */
+/* /ESTILO GERAL PARA TODO SITE */
 
 /* ESTILO DO CABECALHO -> ( HEADER ) */
 header{
@@ -65,7 +75,7 @@ header nav ul li{
    padding: 0 40px;
 }
 
-/* FIM ESTILO DO CABECALHO -> ( HEADER ) */
+/* /ESTILO DO CABECALHO -> ( HEADER ) */
 
 /* ESTILO DA HOME */
 section.home{
@@ -102,5 +112,34 @@ section.home .flex{
         top:30px;
     }
 }
+/* /ESTILO DA HOME */
 
-/* FIM ESTILO DA HOME */
+/* ESTILO DAS ESPECIALIDADES */
+section.especialidades{
+    padding: 40px 4%;
+}
+section.especialidades .flex{
+    gap: 60px;
+}
+section.especialidades .especialidades-box{
+   color: var(--secundary-color);
+   padding: 40px;   
+   margin-top: 45px;
+   border-radius: 20px;
+   transition: .2s;
+   cursor: pointer;
+}
+section.especialidades .especialidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 8px #FFFFFF78;
+}
+section.especialidades .especialidades-box i{
+   font-size: 70px;
+   color: var(--primary-color);   
+}
+section.especialidades .especialidades-box h3{
+   font-size: 28px;
+   margin: 15px 0; 
+}
+
+/* /ESTILO DAS ESPECIALIDADES */
