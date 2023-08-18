@@ -38,7 +38,7 @@ body{
     cursor: pointer;
     transition: .2s;
 }
-button:hover{
+button:hover, form .btn-enviar input[type=submit]:hover{
     box-shadow: 0px 0px 8px #00FF08;
     transform : scale(1.05);
 }
@@ -175,7 +175,7 @@ section.sobre .aria-txt-sobre p{
     margin: 30px 0;
     text-align: justify;
 }
-section.sobre .aria-txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border: none;
@@ -230,5 +230,69 @@ section.portfolio .flex{
 .overlay:hover{
    opacity: 1;
 }
-
 /* /ESTILO DO PORTFOLIO */
+
+/* /ESTILO DO FORMULARIO */
+section.formulario{
+    padding: 80px 4%;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+form input, form textarea{
+    width: 100%;
+    background-color: #242424;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #FFF;
+    font-size: 18px;
+}
+form textarea{
+   resize: none;
+   max-height: 200px;
+}
+form .btn-enviar{
+   margin-top: 20px;    
+   text-align: center;   
+}
+form .btn-enviar input[type=submit]{
+    width: 120px;
+    background-color: var(--primary-color);
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s;
+    max-height: 60px;
+}
+/* /ESTILO DO FORMULARIO */
+
+/* /ESTILO DO RODAPE */
+footer{
+    padding: 40px 4%;
+    box-shadow: 0 0 40px 10px #FFFFFF1d;
+}
+footer .flex{
+    justify-content: space-between;
+}
+footer .line-footer{
+    padding: 20px 0;    
+}
+.borda{
+    border-top: 2px solid var(--primary-color);
+}
+footer .line-footer p i{
+    color: var(--primary-color);
+    font-size: 22px;
+}
+footer .line-footer p a{
+   color: var(--secundary-color);
+}
+/* /ESTILO DO RODAPE */
