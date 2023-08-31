@@ -100,6 +100,9 @@ header nav.menu-desktop ul li {
     padding: 0 40px;
 }
 
+header .btn-abrirMenu{
+    display: none;
+}
 /* /ESTILO DO CABECALHO -> ( HEADER ) */
 
 /* ESTILO DA HOME */
@@ -372,6 +375,9 @@ footer .line-footer p a {
     .btn-contato {
         display: none;
     }
+    header .btn-abrirMenu{
+        display: block;
+    }
 
     /* HOME */
     section.home {
@@ -456,5 +462,5 @@ footer .line-footer p a {
     footer .logo-footer{
         width: 100%;
     }
-
+   
 }

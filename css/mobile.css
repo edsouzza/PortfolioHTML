@@ -45,7 +45,7 @@
 }
 .btn-abrirMenu i{
     color: var(--primary-color);
-    font-size: 40px;
+    font-size: 40px;   
 }
 .overlayMenu{
     background-color: rgba(0, 0, 0, 0.719);
