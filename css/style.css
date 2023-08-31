@@ -86,7 +86,7 @@ header a {
     transition: .2s;
 }
 
-header a:hover {
+header nav.menu-desktop a:hover {
     color: var(--secundary-color);
     transform: scale(1.05);
 }
@@ -95,7 +95,7 @@ header nav ul {
     list-style-type: none;
 }
 
-header nav ul li {
+header nav.menu-desktop ul li {
     display: inline-block;
     padding: 0 40px;
 }
