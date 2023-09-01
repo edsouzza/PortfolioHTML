@@ -357,8 +357,9 @@ footer .line-footer p a {
 
 /* RESPONSIVIDADE */
 
-@media screen and (max-width:1220px) {
-    /* Quando resolução estiver menor que 1220px */
+
+@media screen and (max-width:1124px) {
+    /* Quando resolução estiver menor que 1024px */
 
     /* CLASSES GERAIS */
     .home .flex {
@@ -438,9 +439,9 @@ footer .line-footer p a {
     }
 
     section.portfolio {
-        padding: 80px 8%;
+        padding: 80px 8%;        
     }
-
+  
     .img-port {
         width: 100%;
         max-width: 360px;
@@ -463,4 +464,10 @@ footer .line-footer p a {
         width: 100%;
     }
    
+}
+
+@media  (min-width:1024px) {
+    .img-port {
+        max-width: 340px;
+    }
 }
